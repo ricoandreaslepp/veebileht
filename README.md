@@ -1,5 +1,6 @@
-# Muusika
-Kuula oma lemmikmuusikat!
+# Kuradi nõrk veebirakendus (prototüüp nimi)
+
+Katseta tuntud veebirakenduste nõrkuseid!
 
 # Kasutus
 ```python3

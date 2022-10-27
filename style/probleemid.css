@@ -13,12 +13,15 @@ https://fonts.google.com/specimen/Roboto?preview.text=Roboto%20Text%20Preview&pr
 }
 
 body, html {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Style the header */
+div {
+    display: flex;
+    flex-flow: column;
+}
+
 header {
     background-color: #12263A;
     color: #D0CD94;
@@ -26,6 +29,49 @@ header {
     padding: 30px;
     font-size: 35px;
 }
+
+footer {
+    background-color: #12263A;
+    border: 10px solid green;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.sisu {
+    background-color: yellow;
+}
+
+.sissejuhatus {
+    flex: 1;
+    background-color: rgb(128, 0, 0);
+    border: 5px solid yellow;
+}
+
+.tutvustus {
+    background-color: blue;
+    width: 200px;
+
+}
+
+.sissejuhatus_main {
+    height: 100vh;
+    overflow: auto;
+}
+
+.probleem {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #C5D8D1;
+    height: 300px;
+}
+
+.animatsioon {
+    background-color: green;
+}
+
+/* võib-olla pole vajalik */
 
 /* Create two columns/boxes that floats next to each other */
 nav {
@@ -45,30 +91,6 @@ nav.ul {
 
 nav.ul.a  {
     color: black;
-}
-
-boxes {
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: #C5D8D1;
-    height: 300px;
-}
-
-/* Clear floats after the columns */
-section::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Style the footer */
-footer {
-    background-color: #12263A;
-    border: 10px solid green;
-    padding: 10px;
-    text-align: center;
-    color: white;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */

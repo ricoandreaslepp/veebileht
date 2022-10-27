@@ -12,17 +12,19 @@ https://fonts.google.com/specimen/Roboto?preview.text=Roboto%20Text%20Preview&pr
     font-family: 'Roboto', sans-serif;
 }
 
-body {
+body, html {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Style the header */
 header {
     background-color: #12263A;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
     color: #D0CD94;
+    border: 5px solid green;
+    padding: 30px;
+    font-size: 35px;
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -63,6 +65,7 @@ section::after {
 /* Style the footer */
 footer {
     background-color: #12263A;
+    border: 10px solid green;
     padding: 10px;
     text-align: center;
     color: white;

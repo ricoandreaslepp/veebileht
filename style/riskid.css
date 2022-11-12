@@ -1,3 +1,4 @@
+# https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
 :root {
     --border-color: 2px solid yellow;
 }
@@ -10,11 +11,6 @@
 body, html {
     margin: 0;
     padding: 0;
-}
-
-div {
-    display: flex;
-    flex-flow: column;
 }
 
 header {
@@ -38,24 +34,24 @@ footer {
 }
 
 .sissejuhatus {
-    flex: 1;
+    display: flex;
+
     background-color: black;
+    align-content: justify-content;
     border: var(--border-color);
+}
+
+.pealkiri {
+    border: var(--border-color);
+    padding: 20px;
+    width: 70%;
+    background-color: #C5D8D1;
+    height: 300px;
 }
 
 .tutvustus {
     background-color: blue;
     width: 200px;
-
-}
-
-.pealkiri {
-    border: var(--border-color);
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: #C5D8D1;
-    height: 300px;
 }
 
 .animatsioon {

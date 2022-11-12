@@ -1,0 +1,104 @@
+/* 
+värvid:
+https://coolors.co/generate
+
+fondid:
+https://fonts.google.com/specimen/Roboto?preview.text=Roboto%20Text%20Preview&preview.text_type=custom
+
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-flow: column;
+}
+
+header {
+    background-color: #12263A;
+    color: #D0CD94;
+    border: 5px solid green;
+    padding: 30px;
+    font-size: 35px;
+}
+
+footer {
+    background-color: #12263A;
+    border: 10px solid green;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.sisu {
+    background-color: yellow;
+}
+
+.sissejuhatus {
+    flex: 1;
+    background-color: rgb(128, 0, 0);
+    border: 5px solid yellow;
+}
+
+.tutvustus {
+    background-color: blue;
+    width: 200px;
+
+}
+
+.sissejuhatus_main {
+    height: 100vh;
+    overflow: auto;
+}
+
+.probleem {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #C5D8D1;
+    height: 300px;
+}
+
+.animatsioon {
+    background-color: green;
+}
+
+/* võib-olla pole vajalik */
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    background: #06BCC1;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Style the list inside the menu */
+nav.ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav.ul.a  {
+    color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}

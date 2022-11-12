@@ -1,59 +1,98 @@
+:root {
+    --backgroud-color: rgb(6,11,25);
+    --border-color: rgb(255,255,255,0.1);
+}
+
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-}
-
-div {
+body {
+    background-color: var(--backgroud-color);
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
 }
 
-header {
-    background-color: #12263A;
-    color: #D0CD94;
-    border: 5px solid green;
-    padding: 30px;
-    font-size: 35px;
+nav {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
 }
 
-footer {
-    background-color: #12263A;
-    border: 10px solid green;
-    padding: 10px;
-    text-align: center;
+nav > .nav-section {
+    padding: 3rem 2rem;
+    display: flex;
+    gap: 1rem;
+    border-left: 1px solid var(--border-color);
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-logo-section {
+    justify-content: flex-start;
+}
+
+#nav-logo-section > a > i {
+    font-size: 2.5rem;
+}
+
+#nav-link-section {
+    gap: 6rem;
+}
+
+#nav-social-section {
+    gap: 3rem;
+}
+
+h1, h2, h3, a, p, span {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
     color: white;
 }
 
-.sisu {
-    background-color: yellow;
+a {
+    text-decoration: none;
 }
 
-.sissejuhatus {
-    flex: 1;
-    background-color: rgb(128, 0, 0);
-    border: 5px solid yellow;
+
+main {
+    flex-grow: 1;
+    position: relative;
 }
 
-.tutvustus {
-    background-color: blue;
-    width: 200px;
-
+main > article {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
-.sissejuhatus_main {
-    height: 100vh;
-    overflow: auto;
+main > article > .article-section {
+    height: 100%;
 }
 
-.probleem {
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: #C5D8D1;
-    height: 300px;
+main > article > .article-description-section,
+main > article > .article-nav-section {
+    border-left: 1px solid var(--border-color);
+}
+
+main > article > .article-title-section,
+main > article > .article-nav-section {
+    border-top: 1px solid var(--border-color);
+}
+
+
+main > article[data-status="inactive"] {
+    transform: translateX(-100%);
+}
+
+
+.box1 img {
+    object-fit: cover;
 }

@@ -1,11 +1,6 @@
-/* 
-värvid:
-https://coolors.co/generate
-
-fondid:
-https://fonts.google.com/specimen/Roboto?preview.text=Roboto%20Text%20Preview&preview.text_type=custom
-
-*/
+:root {
+    --border-color: 2px solid yellow;
+}
 
 * {
     box-sizing: border-box;
@@ -23,16 +18,16 @@ div {
 }
 
 header {
-    background-color: #12263A;
+    background-color: rgb(6, 11, 25);
     color: #D0CD94;
-    border: 5px solid green;
+    border: var(--border-color);
     padding: 30px;
     font-size: 35px;
 }
 
 footer {
-    background-color: #12263A;
-    border: 10px solid green;
+    background-color: rgb(6, 11, 25);
+    border: var(--border-color);
     padding: 10px;
     text-align: center;
     color: white;
@@ -44,8 +39,8 @@ footer {
 
 .sissejuhatus {
     flex: 1;
-    background-color: rgb(128, 0, 0);
-    border: 5px solid yellow;
+    background-color: black;
+    border: var(--border-color);
 }
 
 .tutvustus {
@@ -54,12 +49,8 @@ footer {
 
 }
 
-.sissejuhatus_main {
-    height: 100vh;
-    overflow: auto;
-}
-
-.probleem {
+.pealkiri {
+    border: var(--border-color);
     float: left;
     padding: 20px;
     width: 70%;

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>Nõrk</title>
+
 <head>
     <link rel="stylesheet" href="style/riskid.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
+    <script src="js/esimene.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -20,10 +22,10 @@
         </div>
 
         <div class="sisu">
-            <div class="pealkiri">
-                <h1>HTML sisestus</h1>
+            <div class="nõrkuse_sisu">
+                <h1>Nõrkus: HTML sisestus</h1>
+                <h3>Risk: </h3>
                 <div class="tutvustus">
-                    <p>Tere!</p>
                     <p>Pikk tekst selle kohta, mis ja kuidas see töötama peaks aaaaaaaaaaaaaa
                         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -32,10 +34,37 @@
                     </p>
 
                     <h2>Tutvustav video</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/x6u52n3TjiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/POe6SIDU298"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe> -->
                 </div>
 
                 <div class="proovi_ise_ka">
                     <h2>Proovi ise!</h2>
+                    <p>
+                        Katseta erinevaid sisestusi ja proovi mõista, miks ja millal need töötavad.
+                    </p>
+
+                    <p>Mis on sinu nimi?</p>
+                    <textarea rows="2" cols="20" type="text" id="name"
+                        placeholder="Sisesta oma nimi ja vajuta nuppu"></textarea>
+                    <div>
+                        <button onclick=injection()>Saada!</button>
+                    </div>
+                    <p id="sõnum"></p>
+
+                    <button onclick="näitaVihjet()" id="vihjenupp">Näita vihjet!</button>
+                    <div id="vihje" style="display:none">
+                        <p>Mis juhtub, kui see tekst sisestada?</p>
+                        <img src="pildid/muuda_tausta.png">
+                        <p>Proovi neid ka!</p>
+                        <img src="pildid/js_inject.png">
+                        <img src="pildid/pangakaardi_andmed.png">
+                    </div>
+
+                    <p id="query-output"></p>
                 </div>
             </div>
         </div>
@@ -46,7 +75,6 @@
             </footer>
         </div>
     </div>
-
 </body>
 
 </html>

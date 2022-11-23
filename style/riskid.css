@@ -1,91 +1,37 @@
-# https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
-:root {
-    --border-color: 2px solid yellow;
-}
-
 * {
-    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
+html {
+    background-color: rgb(6, 11, 25);
 }
 
-header {
-    background-color: rgb(6, 11, 25);
-    color: #D0CD94;
-    border: var(--border-color);
-    padding: 30px;
-    font-size: 35px;
+a {
+    text-decoration: none;
 }
 
-footer {
+.sissejuhatus_main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.sissejuhatus_main .header {
     background-color: rgb(6, 11, 25);
-    border: var(--border-color);
-    padding: 10px;
-    text-align: center;
-    color: white;
+    color: #F5F5DC;
 }
 
 .sisu {
-    background-color: yellow;
-}
-
-.sissejuhatus {
     display: flex;
-
-    background-color: black;
-    align-content: justify-content;
-    border: var(--border-color);
+    flex-direction: column;
+    flex: 2 1 auto;
+    border: 2px solid green;
 }
 
-.pealkiri {
-    border: var(--border-color);
-    padding: 20px;
-    width: 70%;
-    background-color: #C5D8D1;
-    height: 300px;
-}
-
-.tutvustus {
-    background-color: blue;
-    width: 200px;
-}
-
-.animatsioon {
-    background-color: green;
-}
-
-/* võib-olla pole vajalik */
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-    float: left;
-    width: 30%;
-    height: 300px;
-    background: #06BCC1;
-    padding: 20px;
-    font-size: 20px;
-}
-
-/* Style the list inside the menu */
-nav.ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav.ul.a  {
-    color: black;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-
-    nav,
-    article {
-        width: 100%;
-        height: auto;
-    }
+.sissejuhatus_main .footer {
+    flex-direction: row;
+    background-color: rgb(6, 11, 25);
+    color: #F5F5DC;
+    text-align: center;
 }

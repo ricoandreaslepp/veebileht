@@ -10,6 +10,13 @@ a {
     text-decoration: none;
 }
 
+/*
+flex-box exapand content
+https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-content
+
+
+*/
+
 .sissejuhatus_main {
     display: flex;
     flex-direction: column;
@@ -20,13 +27,25 @@ a {
 .sissejuhatus_main .header {
     background-color: rgb(6, 11, 25);
     color: #F5F5DC;
+    text-align: center;
 }
 
 .sisu {
     display: flex;
     flex-direction: column;
-    flex: 2 1 auto;
+    flex: 1 1 auto;
+    background-color: rgb(6, 11, 25);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: -10%;
     border: 2px solid green;
+}
+
+.sisu .pealkiri {
+    background-color: #F5F5DC;
+    min-height: 85vh; /* hardcoded? */
+    border-radius: 2%;
+    border: 2px solid crimson;
 }
 
 .sissejuhatus_main .footer {

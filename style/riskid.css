@@ -15,7 +15,7 @@ footer {
 }
 
 /*
-flex-box exapand content
+flex-box expand content
 https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-content
 
 
@@ -67,5 +67,5 @@ https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-con
     color: black;
     margin: 1rem 0;
     height: 200px;
-  }
+}
   

@@ -16,12 +16,12 @@ http://localhost:8000
 # TODO
 1) index.html - javascripti animatsioon (Rico)
 2) sissejuhatus.html (Õnne)
-    2.1 pilt
-    2.2 ikoon
-    2.3 tekst
-    2.4 liikumine teistele lehtedele
+    * 2.1 pilt
+    * 2.2 ikoon
+    * 2.3 tekst
+    * 2.4 liikumine teistele lehtedele
 3) teine.html - failide sisu (Õnne)
 4) probleemide lehed
-    4.1 liikumine
-    4.2 tekst
-    (4.3 kolmas.html?)
+    * 4.1 liikumine
+    * 4.2 tekst
+    * (4.3 kolmas.html?)

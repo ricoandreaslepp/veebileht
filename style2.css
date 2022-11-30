@@ -1,5 +1,5 @@
 :root {
-    --backgroud-color: rgb(6,11,25);
+    --backgroud-color: rgb(5,10,24);
     --border-color: rgb(255,255,255,0.1);
 }
 
@@ -31,6 +31,16 @@ nav > .nav-section {
     justify-content: center;
 }
 
+#nav-logo-section,
+#nav-link-section {
+    flex-basis: calc(100%/3);
+}
+
+#nav-social-section,
+#nav-contact-section {
+    flex-grow: 1;
+}
+
 #nav-logo-section {
     justify-content: flex-start;
 }
@@ -50,7 +60,7 @@ nav > .nav-section {
 h1, h2, h3, a, p, span {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
-    color: white;
+    color: antiquewhite;
 }
 
 a {
@@ -60,7 +70,6 @@ a {
 
 main {
     flex-grow: 1;
-    position: relative;
 }
 
 main > article {
@@ -68,9 +77,6 @@ main > article {
     height: 100%;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 1fr;
-    position: absolute;
-    left: 0px;
-    top: 0px;
 }
 
 main > article > .article-section {
@@ -80,6 +86,7 @@ main > article > .article-section {
 main > article > .article-description-section,
 main > article > .article-nav-section {
     border-left: 1px solid var(--border-color);
+    color:antiquewhite;
 }
 
 main > article > .article-title-section,
@@ -88,11 +95,27 @@ main > article > .article-nav-section {
 }
 
 
-main > article[data-status="inactive"] {
-    transform: translateX(-100%);
+main > article > .article-description-section {
+    padding: 1rem 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
+main > article > .article-description-section > .p1 {
+    font-family: "Times New Roman", Times, serif;
+}
 
-.box1 img {
-    object-fit: cover;
+main > article > .article-title-section {
+    justify-content: left;
+    padding: 1rem 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: left;
+    font-size: 200%;
+    font-family: 'Noto Serif', serif;
+    white-space: pre-line;
+    color: antiquewhite;
 }

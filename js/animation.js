@@ -65,8 +65,7 @@ const resolver = {
  * Source: http://theportalwiki.com/wiki/GLaDOS_voice_lines#Chapter_9:_The_Part_Where_He_Kills_You
  */
 const strings = [
-'root:~$ echo "Tere tulemast..."',
-'root:~$ echo "<insert slogan>"',
+'root:~$ echo "Tere tulemast lehele Kuradi Nõrk Veebirakendus"',
 'root:~$ ./start_hacking.sh'];
 
 let counter = 0;
@@ -75,11 +74,11 @@ const options = {
   // Initial position
   offset: 0,
   // Timeout between each random character
-  timeout: 3,
+  timeout: 5,
   // Number of random characters to show
-  iterations: 10,
+  iterations: 5,
   // Random characters to pick from
-  characters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'x', '#', '%', '&', '-', '+', '_', '?', '/', '\\', '='],
+  characters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'x', '#', '%', '&', '-', '+', '_', '?', '/', '='],
   // String to resolve
   resolveString: strings[counter],
   // The element
@@ -92,13 +91,12 @@ function callback() {
     counter++;
 
     if (counter >= strings.length) {
-      //counter = 0;
-      window.location.href = "sissejuhatus.html";
+      window.location.href = "kuradi_nork_rakendus.html";
     }
 
     let nextOptions = Object.assign({}, options, { resolveString: strings[counter] });
     resolver.resolve(nextOptions, callback);
-  }, 1000);
+  }, 2000);
 }
 
 resolver.resolve(options, callback);

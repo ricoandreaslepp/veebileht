@@ -88,6 +88,10 @@ main > article > .article-section {
     height: 100%;
 }
 
+main > article > .article-nav-section {
+    text-align: center;
+}
+
 main > article > .article-description-section,
 main > article > .article-nav-section {
     border-left: 1px solid var(--border-color);

@@ -1,8 +1,6 @@
-# Kuradi nõrk veebirakendus (prototüüp nimi)
+# Kuradi nõrk veebirakendus
 
-Katseta tuntud veebirakenduste nõrkuseid!
-
-Disainimise ja koodi kirjutamise lihtsustamiseks on hetkel borderid sees.
+Katseta veebirakenduste tuntud nõrkuseid!
 
 # Kasutus
 ```python3
@@ -12,14 +10,3 @@ python3 -m http.server
 ```
 http://localhost:8000
 ```
-
-# TODO
-2) kuradi_nork_rakendus.html (Õnne)
-    * 2.1 pilt
-    * 2.2 ikoon
-    * 2.3 tekst
-    * 2.4 liikumine teistele lehtedele
-4) probleemide lehed
-    * 4.1 liikumine
-    * 4.2 tekst
-    * (4.3 kolmas.html?)

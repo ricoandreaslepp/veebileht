@@ -7,7 +7,7 @@ html {
     display: flex;
     justify-content: space-around;
     margin: 50px;
-    background-image: url("../eyes.png");
+    background-image: url("../pildid/background_eyes.png");
 }
 
 header {

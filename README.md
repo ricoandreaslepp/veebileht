@@ -17,6 +17,6 @@ Jooksuta lokaalset serverit
 python3 -m http.server
 ```
 Ühendus:
-```
+```bash
 http://localhost:8000
 ```

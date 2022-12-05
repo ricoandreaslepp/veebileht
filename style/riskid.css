@@ -15,6 +15,10 @@ footer {
     font-size: 30px;
 }
 
+p {
+    margin: 0;
+}
+
 /*
 flex-box expand content
 https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-content
@@ -52,8 +56,33 @@ https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-con
     background-color: black;
     padding: 2%;
     padding-top: 5px;
-    max-width: 70vh;
+    max-width: 130vh;
     border-radius: 4%;
+}
+
+.tutvustus {
+    display: flex;
+    flex-direction: row;
+}
+
+.tutvustus .vasak {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.vasak {
+    margin: 2%;
+    margin-left: 0%;
+}
+
+.tutvustus .vasak > p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.tutvustus .parem .video {
+    width: 700px;
+    height: 375px;
 }
 
 .sissejuhatus_main .footer {

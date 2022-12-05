@@ -13,7 +13,7 @@ git clone https://github.com/ricoandreaslepp/veebileht.git && cd veebileht
 ```
 
 Jooksuta lokaalset serverit
-```python3
+```bash
 python3 -m http.server
 ```
 Ühendus:

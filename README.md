@@ -14,12 +14,11 @@ http://localhost:8000
 ```
 
 # TODO
-2) sissejuhatus.html (Õnne)
+2) kuradi_nork_rakendus.html (Õnne)
     * 2.1 pilt
     * 2.2 ikoon
     * 2.3 tekst
     * 2.4 liikumine teistele lehtedele
-3) teine.html - failide sisu (Õnne)
 4) probleemide lehed
     * 4.1 liikumine
     * 4.2 tekst

@@ -58,7 +58,6 @@ nav>.nav-section {
 }
 
 h1,
-h2,
 h3,
 a,
 p,
@@ -70,6 +69,10 @@ span {
 
 a {
     text-decoration: none;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
 }
 
 

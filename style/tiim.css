@@ -58,11 +58,12 @@ nav>.nav-section {
     gap: 3rem;
 }
 
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
 
-
-
-
-h1,
 h2,
 h3,
 a,
@@ -119,7 +120,7 @@ main>article>.article-description-section {
     font-size: 120%;
 }
 
-main>article>.article-description-section>.p1 {
+main>article>.article-description-section>.h1 {
     font-family: 'Press Start 2P', cursive;
 }
 
@@ -141,6 +142,10 @@ img {
     max-height: 100%;
 }
 
-#anav-section {
+#anav-section1 {
+    font-size: 6rem;
+}
+
+#anav-section2 {
     font-size: 6rem;
 }

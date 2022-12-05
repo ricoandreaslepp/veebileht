@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Kuradi Nõrk Veebirakendus - esimene</title>
-
 <head>
+    <title>Kuradi Nõrk Veebirakendus - esimene</title>
     <link rel="stylesheet" href="style/riskid.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
     <script src="js/esimene.js"></script>
     <script src="https://kit.fontawesome.com/6876f2bdb9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,8 +36,7 @@
                     </p>
 
                     <!-- <h2>Tutvustav video</h2> -->
-                    <iframe class="video" src="https://www.youtube.com/embed/x6u52n3TjiI" title="YouTube video player"
-                        frameborder="0"
+                    <iframe class="video" src="https://www.youtube.com/embed/x6u52n3TjiI"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/POe6SIDU298"
@@ -56,7 +53,7 @@
 
                     <p>Mis on sinu nimi?</p>
                     <div class="tekstikast">
-                        <textarea rows="10" cols="75" type="text" id="name"
+                        <textarea rows="10" cols="75" id="name"
                             placeholder="Sisesta oma nimi ja vajuta nuppu"></textarea>
                     </div>
                     <div>
@@ -67,10 +64,10 @@
                     <button onclick="näitaVihjet()" id="vihjenupp">Näita vihjet!</button>
                     <div id="vihje" style="display:none">
                         <p>Mis juhtub, kui see tekst sisestada?</p>
-                        <img src="pildid/muuda_tausta.png">
+                        <img src="pildid/muuda_tausta.png" alt="#">
                         <p>Proovi neid ka!</p>
-                        <img src="pildid/js_inject.png">
-                        <img src="pildid/pangakaardi_andmed.png">
+                        <img src="pildid/js_inject.png" alt="#">
+                        <img src="pildid/pangakaardi_andmed.png" alt="#">
                     </div>
 
                     <p id="query-output"></p>

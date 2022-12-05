@@ -64,7 +64,7 @@ button {
 }
 
 
-.tutvustus > p {
+.tutvustus>p {
     text-align: justify;
     font-size: 24px;
 }
@@ -89,7 +89,7 @@ button {
     color: white;
 }
 
-div > footer > .article-nav-section {
+div>footer>.article-nav-section {
     padding: 3rem 2rem;
     display: flex;
     gap: 1rem;
@@ -104,4 +104,3 @@ div > footer > .article-nav-section {
     margin: 1rem 0;
     height: 200px;
 }
-  

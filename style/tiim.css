@@ -1,6 +1,6 @@
 :root {
-    --backgroud-color: rgb(23,15,30);
-    --border-color: rgb(255,255,255,0.1);
+    --backgroud-color: rgb(23, 15, 30);
+    --border-color: rgb(255, 255, 255, 0.1);
 }
 
 * {
@@ -22,7 +22,7 @@ nav {
     border-bottom: 1px solid var(--border-color);
 }
 
-nav > .nav-section {
+nav>.nav-section {
     padding: 3rem 2rem;
     display: flex;
     gap: 1rem;
@@ -46,7 +46,7 @@ nav > .nav-section {
     justify-content: flex-start;
 }
 
-#nav-logo-section > a > i {
+#nav-logo-section>a>i {
     font-size: 2.5rem;
 }
 
@@ -62,7 +62,12 @@ nav > .nav-section {
 
 
 
-h1, h2, h3, a, p, span {
+h1,
+h2,
+h3,
+a,
+p,
+span {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     color: antiquewhite;
@@ -76,36 +81,36 @@ main {
     flex-grow: 1;
 }
 
-main > article {
+main>article {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
 }
 
-main > article > .article-section {
+main>article>.article-section {
     height: 100%;
     font-family: 'Press Start 2P', cursive;
     line-height: 30px;
 }
 
-main > article > .article-nav-section {
+main>article>.article-nav-section {
     text-align: center;
 }
 
-main > article > .article-description-section,
-main > article > .article-nav-section {
+main>article>.article-description-section,
+main>article>.article-nav-section {
     border-left: 1px solid var(--border-color);
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-main > article > .article-title-section,
-main > article > .article-nav-section {
+main>article>.article-title-section,
+main>article>.article-nav-section {
     border-top: 1px solid var(--border-color);
 }
 
 
-main > article > .article-description-section {
+main>article>.article-description-section {
     padding: 1rem 1rem;
     display: flex;
     gap: 3rem;
@@ -114,11 +119,11 @@ main > article > .article-description-section {
     font-size: 120%;
 }
 
-main > article > .article-description-section > .p1 {
+main>article>.article-description-section>.p1 {
     font-family: 'Press Start 2P', cursive;
 }
 
-main > article > .article-title-section {
+main>article>.article-title-section {
     justify-content: left;
     padding: 1rem 1rem;
     display: flex;

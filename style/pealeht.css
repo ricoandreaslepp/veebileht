@@ -1,6 +1,6 @@
 :root {
-    --backgroud-color: rgb(23,15,30);
-    --border-color: rgb(255,255,255,0.1);
+    --backgroud-color: rgb(23, 15, 30);
+    --border-color: rgb(255, 255, 255, 0.1);
 }
 
 * {
@@ -22,7 +22,7 @@ nav {
     border-bottom: 1px solid var(--border-color);
 }
 
-nav > .nav-section {
+nav>.nav-section {
     padding: 3rem 2rem;
     display: flex;
     gap: 1rem;
@@ -45,7 +45,7 @@ nav > .nav-section {
     justify-content: flex-start;
 }
 
-#nav-logo-section > a > i {
+#nav-logo-section>a>i {
     font-size: 2.5rem;
 }
 
@@ -57,7 +57,12 @@ nav > .nav-section {
     gap: 3rem;
 }
 
-h1, h2, h3, a, p, span {
+h1,
+h2,
+h3,
+a,
+p,
+span {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     color: antiquewhite;
@@ -72,42 +77,42 @@ main {
     flex-grow: 1;
 }
 
-main > article {
+main>article {
     display: grid;
     height: 100%;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 1fr;
 }
 
-main > article > .article-section {
+main>article>.article-section {
     height: 100%;
 }
 
-main > article > .article-description-section,
-main > article > .article-nav-section {
+main>article>.article-description-section,
+main>article>.article-nav-section {
     border-left: 1px solid var(--border-color);
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-main > article > .article-title-section,
-main > article > .article-nav-section {
+main>article>.article-title-section,
+main>article>.article-nav-section {
     border-top: 1px solid var(--border-color);
 }
 
 
-main > article > .article-description-section {
+main>article>.article-description-section {
     padding: 3rem 3rem;
     display: flex;
     gap: 3rem;
     justify-content: center;
     font-size: 95%;
     text-justify: inter-word;
-    text-align:inherit;
+    text-align: inherit;
     font-family: 'Press Start 2P', cursive;
     line-height: 25px;
 }
 
-main > article > .article-title-section {
+main>article>.article-title-section {
     justify-content: left;
     padding: 1rem 1rem;
     display: flex;
@@ -122,7 +127,7 @@ main > article > .article-title-section {
 }
 
 
-main > article > .article-nav-section {
+main>article>.article-nav-section {
     padding: 3rem 2rem;
     display: flex;
     gap: 1rem;
@@ -135,7 +140,7 @@ main > article > .article-nav-section {
     gap: 3rem;
 }
 
-#anav-section > a > i {
+#anav-section>a>i {
     font-size: 2.5rem;
 }
 

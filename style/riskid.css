@@ -30,7 +30,7 @@ button {
 .sissejuhatus_main {
     display: flex;
     flex-direction: column;
-    max-width: 100vh;
+    max-width: 120vh;
     background-color: rgb(23, 15, 30);
 }
 

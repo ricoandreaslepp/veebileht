@@ -2,7 +2,7 @@
 
 Katseta veebirakenduste tuntud nõrkuseid!
 
-# Leia veeblieht
+# Leia veebileht oma brauserist
 
 ```
 https://kodu.ut.ee/~lepprico

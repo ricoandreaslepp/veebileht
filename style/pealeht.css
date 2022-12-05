@@ -104,6 +104,7 @@ main > article > .article-description-section {
     text-justify: inter-word;
     text-align:inherit;
     font-family: 'Press Start 2P', cursive;
+    line-height: 25px;
 }
 
 main > article > .article-title-section {
@@ -117,6 +118,7 @@ main > article > .article-title-section {
     font-family: 'Press Start 2P', cursive;
     white-space: pre-line;
     color: antiquewhite;
+    line-height: 40px;
 }
 
 

@@ -85,6 +85,8 @@ main > article {
 
 main > article > .article-section {
     height: 100%;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 30px;
 }
 
 main > article > .article-nav-section {
@@ -124,7 +126,7 @@ main > article > .article-title-section {
     align-items: center;
     justify-content: left;
     font-size: 200%;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Press Start 2P', cursive;
     white-space: pre-line;
     color: antiquewhite;
 }

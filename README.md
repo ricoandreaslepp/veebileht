@@ -2,13 +2,14 @@
 
 Katseta veebirakenduste tuntud nõrkuseid!
 
-# Leia veebileht oma brauserist
+Leia veebileht oma brauserist [Kuradi Nõrk Veebirakendus](https://kodu.ut.ee/~lepprico) või uurida alt, kuidas seda lokaalselt käivitada!
 
-```
-https://kodu.ut.ee/~lepprico
-```
 
 # Kasutus
+```bash
+git clone 
+```
+
 ```python3
 python3 -m http.server
 ```

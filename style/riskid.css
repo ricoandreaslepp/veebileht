@@ -4,8 +4,10 @@
 }
 
 html {
-    background-image: url("../eyes.png");
+    display: flex;
+    justify-content: space-around;
     margin: 50px;
+    background-image: url("../eyes.png");
 }
 
 header {
@@ -30,14 +32,13 @@ https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-con
 .sissejuhatus_main {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    background-color: #ffffff;
+    max-width: 100vh;
+    background-color: rgb(23, 15, 30);
 }
 
 .sissejuhatus_main .header {
     display: flex;
     justify-content: center;
-    background-color: rgb(6, 11, 25);
     color: #F5F5DC;
 }
 
@@ -46,7 +47,6 @@ https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-con
     flex-direction: row;
     justify-content: center;
     flex: 2 1 auto;
-    background-color: rgb(6, 11, 25);
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -54,40 +54,32 @@ https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-con
 .sisu .nõrkuse_sisu {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    /* background-color: black; */
     padding: 2%;
     padding-top: 5px;
-    max-width: 130vh;
+    max-width: 120vh;
     border-radius: 4%;
 }
 
 .tutvustus {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.tutvustus .vasak {
-    flex-basis: 50%;
-    flex-grow: 1;
-}
 
-.vasak {
-    margin-right: 2%;
-}
-
-.tutvustus .vasak > p {
+.tutvustus > p {
     font-size: 20px;
     text-align: justify;
 }
 
-.tutvustus .parem .video {
-    width: 700px;
-    height: 375px;
+.tutvustus .video {
+    width: 800px;
+    height: 500px;
+    margin: 30px;
 }
 
 .sissejuhatus_main .footer {
     flex-direction: row;
-    background-color: rgb(6, 11, 25);
     color: #F5F5DC;
     text-align: center;
 }

@@ -29,6 +29,7 @@ nav > .nav-section {
     border-left: 1px solid var(--border-color);
     align-items: center;
     justify-content: center;
+    text-justify: inter-word;
 }
 
 #nav-logo-section,
@@ -57,6 +58,10 @@ nav > .nav-section {
     gap: 3rem;
 }
 
+
+
+
+
 h1, h2, h3, a, p, span {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
@@ -67,7 +72,6 @@ a {
     text-decoration: none;
 }
 
-
 main {
     flex-grow: 1;
 }
@@ -75,7 +79,7 @@ main {
 main > article {
     display: grid;
     height: 100%;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 2fr 1fr;
 }
 

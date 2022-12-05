@@ -1,12 +1,11 @@
 :root {
-    --backgroud-color: rgb(5,10,24);
+    --backgroud-color: rgb(23,15,30);
     --border-color: rgb(255,255,255,0.1);
 }
 
 * {
     box-sizing: border-box;
 }
-  
 
 body {
     background-color: var(--backgroud-color);
@@ -97,15 +96,14 @@ main > article > .article-nav-section {
 
 
 main > article > .article-description-section {
-    padding: 1rem 1rem;
+    padding: 3rem 3rem;
     display: flex;
-    gap: 1rem;
-    align-items: center;
+    gap: 3rem;
     justify-content: center;
-}
-
-main > article > .article-description-section > .p1 {
-    font-family: "Times New Roman", Times, serif;
+    font-size: 120%;
+    text-justify: inter-word;
+    text-align:inherit;
+    font-family: 'Times-new-roman';
 }
 
 main > article > .article-title-section {
@@ -116,7 +114,7 @@ main > article > .article-title-section {
     align-items: center;
     justify-content: left;
     font-size: 200%;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Press Start 2P', cursive;
     white-space: pre-line;
     color: antiquewhite;
 }

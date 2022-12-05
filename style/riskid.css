@@ -92,6 +92,15 @@ https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-con
     text-align: center;
 }
 
+div > footer > .article-nav-section {
+    padding: 3rem 2rem;
+    display: flex;
+    gap: 1rem;
+    border-left: 1px solid var(--border-color);
+    align-items: center;
+    justify-content: center;
+}
+
 .output {
     overflow: scroll;
     color: black;

@@ -100,10 +100,10 @@ main > article > .article-description-section {
     display: flex;
     gap: 3rem;
     justify-content: center;
-    font-size: 120%;
+    font-size: 95%;
     text-justify: inter-word;
     text-align:inherit;
-    font-family: 'Times-new-roman';
+    font-family: 'Press Start 2P', cursive;
 }
 
 main > article > .article-title-section {

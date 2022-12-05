@@ -14,7 +14,6 @@ http://localhost:8000
 ```
 
 # TODO
-1) index.html - javascripti animatsioon (Rico)
 2) sissejuhatus.html (Õnne)
     * 2.1 pilt
     * 2.2 ikoon

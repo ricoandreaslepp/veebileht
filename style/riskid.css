@@ -4,7 +4,8 @@
 }
 
 html {
-    background-color: rgb(6, 11, 25);
+    background-image: url("../eyes.png");
+    margin: 50px;
 }
 
 header {
@@ -71,8 +72,7 @@ https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-con
 }
 
 .vasak {
-    margin: 2%;
-    margin-left: 0%;
+    margin-right: 2%;
 }
 
 .tutvustus .vasak > p {

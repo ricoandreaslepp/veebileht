@@ -1,3 +1,10 @@
+/*
+Kogu faili kohta:
+Nimi: Futuristic Resolving/Typing Text Effect feat. GLaDOS
+Autor: Kevin
+Võetud: https://www.sliderrevolution.com/design/cool-javascript-animations/#:~:text=Cool%20Javascript%20Animations%20for%20Loading%2F%20Downloading%20Data%201,clients%20by%20creating%20innovative%20and%20response-boosting%20websites%20
+Modifitseeritud: Rico-Andreas Lepp
+*/
 const resolver = {
   resolve: function resolve(options, callback) {
     // The string to resolve
@@ -61,9 +68,6 @@ const resolver = {
   } };
 
 
-/* Some GLaDOS quotes from Portal 2 chapter 9: The Part Where He Kills You
- * Source: http://theportalwiki.com/wiki/GLaDOS_voice_lines#Chapter_9:_The_Part_Where_He_Kills_You
- */
 const strings = [
 'root:~$ echo "Tere tulemast lehele Kuradi Nõrk Veebirakendus"',
 'root:~$ ./start_hacking.sh'];
